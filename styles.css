@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background:  url('img/fondo-morado.jpg');
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+h1{
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+background-image: url('img/fondo-titulo.jpg');
+     background-size: cover;
+     background-position-y: center;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.contenedor-texto{
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    left: 25%;
+}
+.contenedor-texto .input-mensaje{
+    background: rgb(247, 245, 245);
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 24px;
+   padding: 5px;
+}
+.contenedor-texto .input-nombre{
+    background: rgb(247, 245, 245);
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 24px;
+   padding: 5px;
+}
+.button-enviar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #9a18ba;
+    border-radius: 10px;
+    border: 2px solid #161616;
+    position: relative;
+   left: 47%;
+   right: 50%;
+}
+.button-enviar:hover{
+    color: #0a0a0a;
+    background-color: #ffffff;
+}
+
+#contenedor-mensajes{
+    width: 50%;
+    height: 20vh;
+    background-color: rgb(194, 152, 233);
+    text-align: center;
+    margin: 5rem;
+    padding: 10px;
+    border: 2px solid rgb(174, 28, 241);
+    border-radius: 35px 0px 35px 0px;
+-moz-border-radius: 35px 0px 35px 0px;
+-webkit-border-radius: 35px 0px 35px 0px;
+
+     
+}
+#contenedor-participantes{
+    width: 50%;
+    height: 20vh;
+    background-color: rgb(218, 210, 226);
+    text-align: center;
+    margin: 5rem;
+    padding: 10px;
+    border: 2px solid rgb(56, 55, 56);
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    
+   
+}
